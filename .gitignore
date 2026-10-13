@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*_env
+
+# Databricks
+.databricks/
+*.dbc
+
+# Secrets (CRITICAL — never commit)
+app_secrets.py
+config/
+secrets.py
+
+# Data files
+data/
+*.parquet
+*.csv
+*.json
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
